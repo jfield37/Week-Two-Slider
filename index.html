@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Slider</title>
+
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+
+		<audio controls autoplay>
+  			<source src="audio/Beat-it.mp3" autoplay="true" type="audio/mpeg">
+		</audio>
+
+		<section class="page">
+			<header>
+				<h1>Cha Cha Slide</h1>
+			</header>
+			<hr>
+		</section>
+
+		<!-- jQuery (required) -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+
+	<!-- Anything Slider -->
+	<link rel="stylesheet" href="css/anythingslider.css">
+	<script src="js/jquery.anythingslider.js"></script>
+
+	<style>
+	#slider { width: 700px; height: 390px; }
+	</style>
+
+	<!-- AnythingSlider initialization -->
+	<script>
+		// DOM Ready
+		$(function(){
+			$('#slider').anythingSlider();
+		});
+	</script>
+
+	<!-- Simple AnythingSlider -->
+
+	<ul id="slider">
+
+		<li><img src="img/one.jpg" alt="image one"></li>
+
+		<li><img src="img/two.jpg" alt="image two"></li>
+
+		<li><img src="img/three.jpg" alt="image three"></li>
+
+		<li><img src="img/four.jpg" alt="image four"></li>
+
+		<li><img src="img/five.jpg" alt="image five"></li>
+
+		<li><img src="img/six.jpg" alt="image one"></li>
+
+		<li><img src="img/seven.jpg" alt="image two"></li>
+
+		<li><img src="img/eight.jpg" alt="image three"></li>
+
+		<li><img src="img/nine.jpg" alt="image four"></li>
+
+		<li><img src="img/ten.jpg" alt="image five"></li>
+
+	</ul>
+
+	<!-- END AnythingSlider -->
+
+	</body>
+</html>
